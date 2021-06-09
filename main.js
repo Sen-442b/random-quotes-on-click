@@ -38,10 +38,12 @@ blockQuote.innerHTML= `${content} <hr> By -${author}`
 
  ))
  button_tech.addEventListener("click",()=>(
-    getQuoteData(API_URL_tech)
+    getQuoteData(API_URL_tech),
+    body.style.background = `url(images/spacex-OHOU-5UVIYQ-unsplash.jpg)`
  ))
  button_his.addEventListener("click",()=>(
-    getQuoteData(API_URL_history)
+    getQuoteData(API_URL_history),
+    body.style.background = `url(images/wallpaper2you_294687.jpg)`
  ))
 
  function errorHandling (){

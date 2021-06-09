@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+   color: white;
+   font-weight: 900;
+   background-color: rgba(0, 0, 0, .5);
+}
+
+
+h1{
+    text-align: center;
+}
+div{
+    background-color: rgba(211, 211, 211, 0.7);
+    padding: 10px;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.list{
+    list-style: none;
+   margin: 6px;
+}
+
+button{
+    
+    font-family: inherit;
+    display: flex;
+   background-color: transparent;
+   box-shadow:  #002200;
+   border: 2px solid black;
+   border-radius: 6px;
+   padding: 10px;
+}
