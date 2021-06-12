@@ -39,14 +39,17 @@ blockQuote.innerHTML= `${content} <hr> By -${author}`
  ))
  button_tech.addEventListener("click",()=>(
     getQuoteData(API_URL_tech),
-    body.style.background = `url(images/spacex-OHOU-5UVIYQ-unsplash.jpg)`
+    body.style.background = `url(images/spacex-OHOU-5UVIYQ-unsplash.jpg)`,
+    credits.innerHTML= `<div> Background Image: unknown </div>`
+
  ))
  button_his.addEventListener("click",()=>(
     getQuoteData(API_URL_history),
-    body.style.background = `url(images/wallpaper2you_294687.jpg)`
+    body.style.background = `url(images/wallpaper2you_294687.jpg)`,
+    credits.innerHTML= `<div> Background Image: unknown </div>`
  ))
 
  function errorHandling (){
-    blockQuote.innerHTML="Sometimes people make mistakes , kindly forgive them if they are sorry for that"
+    blockQuote.innerHTML="Sometimes people make mistakes , kindly forgive them if they are sorry for that ,not a quote the server isn't responding...sorry"
     
  }
